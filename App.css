@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 100%;
+
+  flex-shrink: 0;
+}
+
+.center-card {
+  padding-top: 35px;
+}

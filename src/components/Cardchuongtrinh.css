@@ -1,0 +1,48 @@
+.chuongtrinh {
+  padding-top: 35px;
+  width: 1126px;
+  height: 486px;
+  flex-shrink: 0;
+  gap: 8px;
+  margin: 0 auto;
+}
+
+.cards__wrapper__ct {
+  box-sizing: content-box;
+  width: 1126px;
+  height: 486px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  margin: 0 auto;
+  gap: 8px;
+}
+
+.title {
+  color: #8dc63f;
+  text-align: center;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4rem; /* 133.333% */
+  letter-spacing: 0.015rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__wrapper__ct::after {
+  content: "";
+  width: 1126px;
+}
+.linkct {
+  text-decoration: none;
+  opacity: 95%;
+}
+.linkct:hover {
+  opacity: 100%;
+}

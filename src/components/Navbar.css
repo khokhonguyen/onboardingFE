@@ -1,0 +1,85 @@
+.navbar {
+  margin: 0;
+  width: 100%;
+  height: 6.25rem;
+  background: var(--header, #fff);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+  font-family: "Be Vietnam Pro", sans-serif;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+}
+
+.tasks {
+  display: flex;
+  align-items: center;
+  gap: 1.375rem;
+  flex-direction: row;
+}
+
+.nav-item {
+  padding: 29.1 x 1.63;
+  margin-bottom: -10%;
+}
+ul {
+  list-style-type: none;
+  color: #4f4f4f;
+  font-weight: 500;
+  line-height: 1.625rem;
+  margin: 0;
+  padding: 0;
+}
+.nav-links {
+  text-decoration: none;
+  color: #4f4f4f;
+  opacity: 70%;
+}
+.nav-links:hover {
+  opacity: 100%;
+}
+nav > ul > li {
+  font-size: 1rem;
+  font-style: normal;
+}
+.navbar-container {
+  margin-left: 55%;
+  flex-shrink: 0;
+}
+.home {
+  font-weight: 700;
+}
+
+.tool {
+  padding-top: 4%;
+  padding-left: 81%;
+  border: none;
+  display: flex;
+  flex-direction: row;
+}
+.search,
+.lang {
+  opacity: 90%;
+}
+.search:hover {
+  opacity: 100%;
+}
+.lang:hover {
+  opacity: 100%;
+}
+.search {
+  margin-left: 5px;
+}
+button {
+  width: 2.75rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  border: none;
+}
+
+.homelogo {
+  width: 7.6875rem;
+  height: 4rem;
+  flex-shrink: 0;
+  padding-left: 7.5rem;
+  padding-top: 1.15rem;
+}
